@@ -297,3 +297,133 @@
 #rodape span {
     font-weight: bold;
 }
+
+/* Mobile */
+
+@media (max-width: 450px) {
+
+    .btn {
+        opacity: 1;
+    }
+
+    /* Descrição Cabeçalho */
+
+    #cabecalhodescricao {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #avisocabecalho {
+        padding: 2em;
+    }
+
+    #avisocabecalho h2 {
+        margin-bottom: 0.5em;
+    }
+
+    #cabecalhoform {
+        max-width: 70%;
+        margin-bottom: 2em;
+
+    }
+
+    /* Beneficios */
+
+    .beneficiossobre {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .beneficiossobre2 {
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    /* Local */
+
+    #local {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+
+    }
+
+    #enderec {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+
+    }
+
+    #enderec i {
+        margin: .3em 0;
+    }
+
+    #sobreenderec {
+        order: 1;
+        max-width: 100%;
+    }
+
+    #sobreenderec h3 {
+        margin-bottom: 0;
+    }
+
+    #sobreenderec p {
+        display: none;
+    }
+
+    /* Detalhes do Local */
+
+    .detalhe {
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap: 0;
+    }
+
+    .detalhe img {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detalhe-1 img {
+        display: none;
+    }
+
+    .descricaodetalhe {
+        padding: 0;
+
+    }
+
+    #detalhe-3 img {
+        order: 2;
+    }
+
+    #detalhe-3 .descricaodetalhe {
+        order: 1;
+    }
+
+    /* Botão Final */
+
+    #cta .btn {
+        width: 80%;
+    }
+
+    #cta {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
