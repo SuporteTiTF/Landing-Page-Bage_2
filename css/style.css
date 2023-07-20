@@ -298,6 +298,12 @@
     font-weight: bold;
 }
 
+#rodape a{
+    font-weight: bold;
+    color: var(--secondary);
+    text-decoration: none;
+}
+
 /* Mobile */
 
 @media (max-width: 450px) {
