@@ -1,16 +1,16 @@
 :root {
-    --primary: rgba(240, 205, 108, 0.90);
-    --secondary: #95989A;
-    --text-color: #FFF;
-    --text-secondary: #000;
-    --text-tertiary: #5d5d5d;
+  --primary: rgba(240, 205, 108, 0.9);
+  --secondary: #95989a;
+  --text-color: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
 }
 
 * {
-    font-family: "Montserrat";
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*body {
@@ -20,416 +20,404 @@
 /* Descrição Cabeçalho */
 
 #cabecalhodescricao {
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
-        url("../img/img1.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 85vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--text-color);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/img1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
 }
 
 #avisocabecalho h2,
 #avisocabecalho .data {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 #avisocabecalho h2 {
-    font-size: 3em;
-    margin-bottom: 1em;
+  font-size: 3em;
+  margin-bottom: 1em;
 }
 
 #avisocabecalho .cabecalhosobre {
-    font-size: 1em;
-    text-transform: uppercase;
-    max-width: 350px;
-    font-weight: bold;
-    margin-bottom: 1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  max-width: 350px;
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 
 #avisocabecalho {
-    font-size: 1.2em;
-    margin-bottom: 3em;
+  font-size: 1.2em;
+  margin-bottom: 3em;
 }
 
 #avisocabecalho .data {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #cabecalhoform {
-    background-color: var(--secondary);
-    padding: 2em;
-    max-width: 22%;
+  background-color: var(--secondary);
+  padding: 2em;
+  max-width: 22%;
 }
 
 #cabecalhoform p {
-    font-size: 1.5em;
-    color: var(--text-secondary);
-    margin-bottom: 1em;
+  font-size: 1.5em;
+  color: var(--text-secondary);
+  margin-bottom: 1em;
 }
 
 .grupo-form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0.8em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
 }
 
 .grupo-form label {
-    color: var(--text-tertiary);
-    margin-bottom: .3em;
-    font-weight: bold;
+  color: var(--text-tertiary);
+  margin-bottom: 0.3em;
+  font-weight: bold;
 }
 
 .grupo-form input,
 .grupo-form select {
-    padding: 6px 8px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
 
 .btn {
-    background-color: var(--primary);
-    color: var(--text-color);
-    text-transform: uppercase;
-    width: 100%;
-    border: none;
-    padding: 12px;
-    cursor: pointer;
-    opacity: 0.8;
+  background-color: var(--primary);
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .btn:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Beneficios */
 
 #beneficios h2 {
-    background-color: var(--secondary);
-    text-align: center;
-    padding: 2em;
-    font-weight: 500;
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
 }
 
 .beneficiossobre {
-    display: flex;
-    justify-content: space-around;
-    padding: 4em;
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .beneficiossobre2 {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 20%;
-    color: var(--text-tertiary);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: var(--text-tertiary);
 }
 
 .beneficiossobre2 .beneficios-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 1em;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
 }
 
 #beneficios1 {
-    background-image: url(../img/ben1.jpg);
+  background-image: url(../img/marketingdigital.jpg);
 }
 
 #beneficios2 {
-    background-image: url(../img/ben2.jpg);
+  background-image: url(../img/ecommerceavancado.jpg);
 }
 
 #beneficios3 {
-    background-image: url(../img/ben3.jpg);
+  background-image: url(../img/inteligenciaemocional.jpg);
 }
 
 /* Local */
 
 #local {
-    height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
-        url("../img/img2.jpg");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: var(--text-color);
-    margin-bottom: 3em;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/img2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--text-color);
+  margin-bottom: 3em;
 }
 
 #enderec,
 #sobreenderec {
-    max-width: 30%;
+  max-width: 30%;
 }
 
 #enderec {
-    display: flex;
+  display: flex;
 }
 
 #enderec i {
-    color: var(--primary);
-    font-size: 4em;
-    margin-right: 0.5em;
+  color: var(--primary);
+  font-size: 4em;
+  margin-right: 0.5em;
 }
 
 #enderecdetalhes {
-    text-align: center;
-    font-size: 1.3em;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 #sobreenderec h3 {
-    color: var(--primary);
-    font-size: 2.5em;
-    margin-bottom: 1em;
-    text-transform: uppercase;
+  color: var(--primary);
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
 }
 
 #sobreenderec p {
-    line-height: 1.5em;
+  line-height: 1.5em;
 }
 
 /* Detalhes do Local */
 
 #detalhes {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .detalhe {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 5%;
-    margin-bottom: 4em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
 }
 
 .detalhe img {
-    width: 50%;
+  width: 50%;
 }
 
 .detalhe h3 {
-    margin-bottom: 1em;
-    font-size: 2em;
-    font-weight: 500;
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 500;
 }
 
 #detalhe-1 h3 {
-    font-size: 3em;
-    font-weight: 700;
+  font-size: 3em;
+  font-weight: 700;
 }
 
 .descricaodetalhe {
-    width: 100%;
-    padding-left: 2em;
+  width: 100%;
+  padding-left: 2em;
 }
 
 .descricaodetalhe ul {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 
 .descricaodetalhe ul li {
-    margin-bottom: 0.4em;
+  margin-bottom: 0.4em;
 }
 
 .descricaodetalhe ul li:last-child {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Botão Final */
 
 #cta {
-    height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
-        url("../img/img2.jpg");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-color);
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/img2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
 }
 
 #cta h3 {
-    margin-bottom: 1.2em;
-    font-size: 2em;
-    font-weight: 500;
+  margin-bottom: 1.2em;
+  font-size: 2em;
+  font-weight: 500;
 }
 
 #cta .btn {
-    width: 30%;
-    margin: 0 auto;
-    font-weight: 600;
-    font-size: 1.2em;
+  width: 30%;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+#cta .btn a {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 /* Rodapé */
 
 #rodape {
-    text-align: center;
-    color: var(--secondary);
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  text-align: center;
+  color: var(--secondary);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #rodape h3 {
-    font-size: 1.8em;
-    margin-bottom: .5em;
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
 }
 
 #rodape p:nth-child(2) {
-    margin-bottom: 1em;
-    font-size: 1.2em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
 }
 
 #rodape span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-#rodape a{
-    font-weight: bold;
-    color: var(--secondary);
-    text-decoration: none;
+#rodape a {
+  font-weight: bold;
+  color: var(--secondary);
+  text-decoration: none;
 }
 
 /* Mobile */
 
 @media (max-width: 450px) {
+  .btn {
+    opacity: 1;
+  }
 
-    .btn {
-        opacity: 1;
-    }
+  /* Descrição Cabeçalho */
 
-    /* Descrição Cabeçalho */
+  #cabecalhodescricao {
+    flex-direction: column;
+    height: auto;
+  }
 
-    #cabecalhodescricao {
-        flex-direction: column;
-        height: auto;
-    }
+  #avisocabecalho {
+    padding: 2em;
+  }
 
-    #avisocabecalho {
-        padding: 2em;
-    }
+  #avisocabecalho h2 {
+    margin-bottom: 0.5em;
+  }
 
-    #avisocabecalho h2 {
-        margin-bottom: 0.5em;
-    }
+  #cabecalhoform {
+    max-width: 70%;
+    margin-bottom: 2em;
+  }
 
-    #cabecalhoform {
-        max-width: 70%;
-        margin-bottom: 2em;
+  /* Beneficios */
 
-    }
+  .beneficiossobre {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 2em;
+  }
 
-    /* Beneficios */
+  .beneficiossobre2 {
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
 
-    .beneficiossobre {
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        padding: 2em;
-    }
+  /* Local */
 
-    .beneficiossobre2 {
-        max-width: 100%;
-        margin-bottom: 2em;
-    }
+  #local {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 2em 0;
+  }
 
-    /* Local */
+  #enderec {
+    order: 2;
+    flex-direction: column;
+    max-width: 100%;
+  }
 
-    #local {
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-        padding: 2em 0;
+  #enderec i {
+    margin: 0.3em 0;
+  }
 
-    }
+  #sobreenderec {
+    order: 1;
+    max-width: 100%;
+  }
 
-    #enderec {
-        order: 2;
-        flex-direction: column;
-        max-width: 100%;
+  #sobreenderec h3 {
+    margin-bottom: 0;
+  }
 
-    }
+  #sobreenderec p {
+    display: none;
+  }
 
-    #enderec i {
-        margin: .3em 0;
-    }
+  /* Detalhes do Local */
 
-    #sobreenderec {
-        order: 1;
-        max-width: 100%;
-    }
+  .detalhe {
+    flex-direction: column;
+    margin-bottom: 0.5em;
+    gap: 0;
+  }
 
-    #sobreenderec h3 {
-        margin-bottom: 0;
-    }
+  .detalhe img {
+    width: 100%;
+    margin: 2em 0;
+  }
 
-    #sobreenderec p {
-        display: none;
-    }
+  #detalhe-1 img {
+    display: none;
+  }
 
-    /* Detalhes do Local */
+  .descricaodetalhe {
+    padding: 0;
+  }
 
-    .detalhe {
-        flex-direction: column;
-        margin-bottom: .5em;
-        gap: 0;
-    }
+  #detalhe-3 img {
+    order: 2;
+  }
 
-    .detalhe img {
-        width: 100%;
-        margin: 2em 0;
-    }
+  #detalhe-3 .descricaodetalhe {
+    order: 1;
+  }
 
-    #detalhe-1 img {
-        display: none;
-    }
+  /* Botão Final */
 
-    .descricaodetalhe {
-        padding: 0;
+  #cta .btn {
+    width: 80%;
+  }
 
-    }
-
-    #detalhe-3 img {
-        order: 2;
-    }
-
-    #detalhe-3 .descricaodetalhe {
-        order: 1;
-    }
-
-    /* Botão Final */
-
-    #cta .btn {
-        width: 80%;
-    }
-
-    #cta {
-        text-align: center;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
+  #cta {
+    text-align: center;
+  }
 }
